@@ -10,6 +10,10 @@ Please read LICENSE.md to learn about what you can and cannot do with this sourc
 
 v0.7.6
 
+## Usage
+
+Simply place the GUI exe file in the same location as NecroBot and run it instead of using NecroBot.exe.
+
 ## Features
 
 - Sort logs by message type
