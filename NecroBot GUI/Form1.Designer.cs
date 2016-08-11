@@ -547,7 +547,7 @@
             this.Controls.Add(this.statsBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "NecroBot GUI - v1.1.0";
+            this.Text = "NecroBot GUI - v1.1.1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.statsBox.ResumeLayout(false);

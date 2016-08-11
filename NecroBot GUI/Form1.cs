@@ -84,7 +84,16 @@ namespace NecroBot_GUI
                 expHrLabel.Text = getSectionInfo(getBaseSections[2], "EXP/H: ", "|");
                 pHrLabel.Text = getSectionInfo(getBaseSections[2], "| P/H: ", "|");
                 stardustLabel.Text = getSectionInfo(getBaseSections[2], "Stardust: ", "|");
-                transferLabel.Text = getSectionInfo(getBaseSections[2], "Transfered: ", "|");
+
+                if (getBaseSections[2].Contains("Transfered"))
+                {
+                    transferLabel.Text = getSectionInfo(getBaseSections[2], "Transfered: ", "|");
+                }
+                else {
+                    transferLabel.Text = getSectionInfo(getBaseSections[2], "Transferred: ", "|");
+                }
+
+
                 recycleLabel.Text = getSectionInfo(getBaseSections[2], "Recycled: ");
             }
         }
@@ -115,7 +124,7 @@ namespace NecroBot_GUI
                         lineColor = Color.Yellow;
                         logToBox(outputBoxSniper, line, lineColor);
                     }
-                    else if (line.Contains("(TRANSFERED)"))
+                    else if (line.Contains("(TRANSFERED)") || line.Contains("(TRANSFERRED)"))
                     {
                         lineColor = Color.Green;
                         logToBox(outputBoxTransfer, line, lineColor);
