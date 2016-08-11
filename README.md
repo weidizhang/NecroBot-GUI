@@ -21,7 +21,7 @@ Simply place the GUI exe file in the same location as NecroBot and run it instea
 
 ## Screenshot
 
-![Screenshot of NecroBot GUI](http://i.imgur.com/69ymwlh.png "NecroBot GUI")
+![Screenshot of NecroBot GUI](http://i.imgur.com/w8C4y7e.png "NecroBot GUI")
 
 ## Notes
 
