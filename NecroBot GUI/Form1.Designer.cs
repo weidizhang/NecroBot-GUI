@@ -30,44 +30,44 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.statsBox = new System.Windows.Forms.GroupBox();
-            this.typeLabel1 = new System.Windows.Forms.Label();
-            this.typeLabel2 = new System.Windows.Forms.Label();
-            this.typeLabel3 = new System.Windows.Forms.Label();
-            this.typeLabel4 = new System.Windows.Forms.Label();
-            this.typeLabel5 = new System.Windows.Forms.Label();
-            this.typeLabel6 = new System.Windows.Forms.Label();
-            this.typeLabel7 = new System.Windows.Forms.Label();
-            this.typeLabel8 = new System.Windows.Forms.Label();
-            this.typeLabel9 = new System.Windows.Forms.Label();
-            this.typeLabel10 = new System.Windows.Forms.Label();
-            this.accLabel = new System.Windows.Forms.Label();
-            this.runtimeLabel = new System.Windows.Forms.Label();
-            this.lvlLabel = new System.Windows.Forms.Label();
-            this.xpLabel = new System.Windows.Forms.Label();
-            this.advInLabel = new System.Windows.Forms.Label();
             this.recycleLabel = new System.Windows.Forms.Label();
+            this.advInLabel = new System.Windows.Forms.Label();
             this.transferLabel = new System.Windows.Forms.Label();
             this.stardustLabel = new System.Windows.Forms.Label();
+            this.xpLabel = new System.Windows.Forms.Label();
             this.pHrLabel = new System.Windows.Forms.Label();
+            this.lvlLabel = new System.Windows.Forms.Label();
             this.expHrLabel = new System.Windows.Forms.Label();
+            this.runtimeLabel = new System.Windows.Forms.Label();
+            this.accLabel = new System.Windows.Forms.Label();
+            this.typeLabel10 = new System.Windows.Forms.Label();
+            this.typeLabel9 = new System.Windows.Forms.Label();
+            this.typeLabel8 = new System.Windows.Forms.Label();
+            this.typeLabel7 = new System.Windows.Forms.Label();
+            this.typeLabel6 = new System.Windows.Forms.Label();
+            this.typeLabel5 = new System.Windows.Forms.Label();
+            this.typeLabel4 = new System.Windows.Forms.Label();
+            this.typeLabel3 = new System.Windows.Forms.Label();
+            this.typeLabel2 = new System.Windows.Forms.Label();
+            this.typeLabel1 = new System.Windows.Forms.Label();
             this.outputBox = new System.Windows.Forms.GroupBox();
-            this.aboutLabel = new System.Windows.Forms.Label();
             this.outputTabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.outputBoxAll = new System.Windows.Forms.TextBox();
-            this.outputBoxPokestop = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.outputBoxSniper = new System.Windows.Forms.TextBox();
-            this.outputBoxTransfer = new System.Windows.Forms.TextBox();
-            this.outputBoxPkmn = new System.Windows.Forms.TextBox();
-            this.outputBoxInfo = new System.Windows.Forms.TextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.outputBoxRecycle = new System.Windows.Forms.TextBox();
+            this.aboutLabel = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.outputBoxAll = new System.Windows.Forms.RichTextBox();
+            this.outputBoxPokestop = new System.Windows.Forms.RichTextBox();
+            this.outputBoxSniper = new System.Windows.Forms.RichTextBox();
+            this.outputBoxTransfer = new System.Windows.Forms.RichTextBox();
+            this.outputBoxPkmn = new System.Windows.Forms.RichTextBox();
+            this.outputBoxInfo = new System.Windows.Forms.RichTextBox();
+            this.outputBoxRecycle = new System.Windows.Forms.RichTextBox();
             this.statsBox.SuspendLayout();
             this.outputBox.SuspendLayout();
             this.outputTabControl.SuspendLayout();
@@ -112,145 +112,15 @@
             this.statsBox.TabStop = false;
             this.statsBox.Text = "Statistics";
             // 
-            // typeLabel1
+            // recycleLabel
             // 
-            this.typeLabel1.AutoSize = true;
-            this.typeLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel1.Location = new System.Drawing.Point(24, 27);
-            this.typeLabel1.Name = "typeLabel1";
-            this.typeLabel1.Size = new System.Drawing.Size(62, 17);
-            this.typeLabel1.TabIndex = 0;
-            this.typeLabel1.Text = "Account:";
-            // 
-            // typeLabel2
-            // 
-            this.typeLabel2.AutoSize = true;
-            this.typeLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel2.Location = new System.Drawing.Point(24, 51);
-            this.typeLabel2.Name = "typeLabel2";
-            this.typeLabel2.Size = new System.Drawing.Size(64, 17);
-            this.typeLabel2.TabIndex = 1;
-            this.typeLabel2.Text = "Runtime:";
-            // 
-            // typeLabel3
-            // 
-            this.typeLabel3.AutoSize = true;
-            this.typeLabel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel3.Location = new System.Drawing.Point(24, 75);
-            this.typeLabel3.Name = "typeLabel3";
-            this.typeLabel3.Size = new System.Drawing.Size(44, 17);
-            this.typeLabel3.TabIndex = 2;
-            this.typeLabel3.Text = "Level:";
-            // 
-            // typeLabel4
-            // 
-            this.typeLabel4.AutoSize = true;
-            this.typeLabel4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel4.Location = new System.Drawing.Point(24, 98);
-            this.typeLabel4.Name = "typeLabel4";
-            this.typeLabel4.Size = new System.Drawing.Size(29, 17);
-            this.typeLabel4.TabIndex = 3;
-            this.typeLabel4.Text = "XP:";
-            // 
-            // typeLabel5
-            // 
-            this.typeLabel5.AutoSize = true;
-            this.typeLabel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel5.Location = new System.Drawing.Point(24, 121);
-            this.typeLabel5.Name = "typeLabel5";
-            this.typeLabel5.Size = new System.Drawing.Size(80, 17);
-            this.typeLabel5.TabIndex = 4;
-            this.typeLabel5.Text = "Advance In:";
-            // 
-            // typeLabel6
-            // 
-            this.typeLabel6.AutoSize = true;
-            this.typeLabel6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel6.Location = new System.Drawing.Point(294, 27);
-            this.typeLabel6.Name = "typeLabel6";
-            this.typeLabel6.Size = new System.Drawing.Size(74, 17);
-            this.typeLabel6.TabIndex = 5;
-            this.typeLabel6.Text = "EXP/Hour:";
-            // 
-            // typeLabel7
-            // 
-            this.typeLabel7.AutoSize = true;
-            this.typeLabel7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel7.Location = new System.Drawing.Point(294, 51);
-            this.typeLabel7.Name = "typeLabel7";
-            this.typeLabel7.Size = new System.Drawing.Size(58, 17);
-            this.typeLabel7.TabIndex = 6;
-            this.typeLabel7.Text = "P/Hour:";
-            // 
-            // typeLabel8
-            // 
-            this.typeLabel8.AutoSize = true;
-            this.typeLabel8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel8.Location = new System.Drawing.Point(294, 75);
-            this.typeLabel8.Name = "typeLabel8";
-            this.typeLabel8.Size = new System.Drawing.Size(63, 17);
-            this.typeLabel8.TabIndex = 7;
-            this.typeLabel8.Text = "Stardust:";
-            // 
-            // typeLabel9
-            // 
-            this.typeLabel9.AutoSize = true;
-            this.typeLabel9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel9.Location = new System.Drawing.Point(294, 98);
-            this.typeLabel9.Name = "typeLabel9";
-            this.typeLabel9.Size = new System.Drawing.Size(82, 17);
-            this.typeLabel9.TabIndex = 8;
-            this.typeLabel9.Text = "Transferred:";
-            // 
-            // typeLabel10
-            // 
-            this.typeLabel10.AutoSize = true;
-            this.typeLabel10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel10.Location = new System.Drawing.Point(294, 121);
-            this.typeLabel10.Name = "typeLabel10";
-            this.typeLabel10.Size = new System.Drawing.Size(65, 17);
-            this.typeLabel10.TabIndex = 9;
-            this.typeLabel10.Text = "Recycled:";
-            // 
-            // accLabel
-            // 
-            this.accLabel.AutoSize = true;
-            this.accLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accLabel.Location = new System.Drawing.Point(134, 27);
-            this.accLabel.Name = "accLabel";
-            this.accLabel.Size = new System.Drawing.Size(27, 17);
-            this.accLabel.TabIndex = 1;
-            this.accLabel.Text = "n/a";
-            // 
-            // runtimeLabel
-            // 
-            this.runtimeLabel.AutoSize = true;
-            this.runtimeLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.runtimeLabel.Location = new System.Drawing.Point(134, 51);
-            this.runtimeLabel.Name = "runtimeLabel";
-            this.runtimeLabel.Size = new System.Drawing.Size(27, 17);
-            this.runtimeLabel.TabIndex = 10;
-            this.runtimeLabel.Text = "n/a";
-            // 
-            // lvlLabel
-            // 
-            this.lvlLabel.AutoSize = true;
-            this.lvlLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lvlLabel.Location = new System.Drawing.Point(134, 75);
-            this.lvlLabel.Name = "lvlLabel";
-            this.lvlLabel.Size = new System.Drawing.Size(27, 17);
-            this.lvlLabel.TabIndex = 11;
-            this.lvlLabel.Text = "n/a";
-            // 
-            // xpLabel
-            // 
-            this.xpLabel.AutoSize = true;
-            this.xpLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xpLabel.Location = new System.Drawing.Point(134, 98);
-            this.xpLabel.Name = "xpLabel";
-            this.xpLabel.Size = new System.Drawing.Size(27, 17);
-            this.xpLabel.TabIndex = 12;
-            this.xpLabel.Text = "n/a";
+            this.recycleLabel.AutoSize = true;
+            this.recycleLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recycleLabel.Location = new System.Drawing.Point(409, 121);
+            this.recycleLabel.Name = "recycleLabel";
+            this.recycleLabel.Size = new System.Drawing.Size(27, 17);
+            this.recycleLabel.TabIndex = 18;
+            this.recycleLabel.Text = "n/a";
             // 
             // advInLabel
             // 
@@ -261,16 +131,6 @@
             this.advInLabel.Size = new System.Drawing.Size(27, 17);
             this.advInLabel.TabIndex = 13;
             this.advInLabel.Text = "n/a";
-            // 
-            // recycleLabel
-            // 
-            this.recycleLabel.AutoSize = true;
-            this.recycleLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.recycleLabel.Location = new System.Drawing.Point(409, 121);
-            this.recycleLabel.Name = "recycleLabel";
-            this.recycleLabel.Size = new System.Drawing.Size(27, 17);
-            this.recycleLabel.TabIndex = 18;
-            this.recycleLabel.Text = "n/a";
             // 
             // transferLabel
             // 
@@ -292,6 +152,16 @@
             this.stardustLabel.TabIndex = 16;
             this.stardustLabel.Text = "n/a";
             // 
+            // xpLabel
+            // 
+            this.xpLabel.AutoSize = true;
+            this.xpLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xpLabel.Location = new System.Drawing.Point(134, 98);
+            this.xpLabel.Name = "xpLabel";
+            this.xpLabel.Size = new System.Drawing.Size(27, 17);
+            this.xpLabel.TabIndex = 12;
+            this.xpLabel.Text = "n/a";
+            // 
             // pHrLabel
             // 
             this.pHrLabel.AutoSize = true;
@@ -302,6 +172,16 @@
             this.pHrLabel.TabIndex = 15;
             this.pHrLabel.Text = "n/a";
             // 
+            // lvlLabel
+            // 
+            this.lvlLabel.AutoSize = true;
+            this.lvlLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvlLabel.Location = new System.Drawing.Point(134, 75);
+            this.lvlLabel.Name = "lvlLabel";
+            this.lvlLabel.Size = new System.Drawing.Size(27, 17);
+            this.lvlLabel.TabIndex = 11;
+            this.lvlLabel.Text = "n/a";
+            // 
             // expHrLabel
             // 
             this.expHrLabel.AutoSize = true;
@@ -311,6 +191,126 @@
             this.expHrLabel.Size = new System.Drawing.Size(27, 17);
             this.expHrLabel.TabIndex = 14;
             this.expHrLabel.Text = "n/a";
+            // 
+            // runtimeLabel
+            // 
+            this.runtimeLabel.AutoSize = true;
+            this.runtimeLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.runtimeLabel.Location = new System.Drawing.Point(134, 51);
+            this.runtimeLabel.Name = "runtimeLabel";
+            this.runtimeLabel.Size = new System.Drawing.Size(27, 17);
+            this.runtimeLabel.TabIndex = 10;
+            this.runtimeLabel.Text = "n/a";
+            // 
+            // accLabel
+            // 
+            this.accLabel.AutoSize = true;
+            this.accLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accLabel.Location = new System.Drawing.Point(134, 27);
+            this.accLabel.Name = "accLabel";
+            this.accLabel.Size = new System.Drawing.Size(27, 17);
+            this.accLabel.TabIndex = 1;
+            this.accLabel.Text = "n/a";
+            // 
+            // typeLabel10
+            // 
+            this.typeLabel10.AutoSize = true;
+            this.typeLabel10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel10.Location = new System.Drawing.Point(294, 121);
+            this.typeLabel10.Name = "typeLabel10";
+            this.typeLabel10.Size = new System.Drawing.Size(65, 17);
+            this.typeLabel10.TabIndex = 9;
+            this.typeLabel10.Text = "Recycled:";
+            // 
+            // typeLabel9
+            // 
+            this.typeLabel9.AutoSize = true;
+            this.typeLabel9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel9.Location = new System.Drawing.Point(294, 98);
+            this.typeLabel9.Name = "typeLabel9";
+            this.typeLabel9.Size = new System.Drawing.Size(82, 17);
+            this.typeLabel9.TabIndex = 8;
+            this.typeLabel9.Text = "Transferred:";
+            // 
+            // typeLabel8
+            // 
+            this.typeLabel8.AutoSize = true;
+            this.typeLabel8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel8.Location = new System.Drawing.Point(294, 75);
+            this.typeLabel8.Name = "typeLabel8";
+            this.typeLabel8.Size = new System.Drawing.Size(63, 17);
+            this.typeLabel8.TabIndex = 7;
+            this.typeLabel8.Text = "Stardust:";
+            // 
+            // typeLabel7
+            // 
+            this.typeLabel7.AutoSize = true;
+            this.typeLabel7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel7.Location = new System.Drawing.Point(294, 51);
+            this.typeLabel7.Name = "typeLabel7";
+            this.typeLabel7.Size = new System.Drawing.Size(58, 17);
+            this.typeLabel7.TabIndex = 6;
+            this.typeLabel7.Text = "P/Hour:";
+            // 
+            // typeLabel6
+            // 
+            this.typeLabel6.AutoSize = true;
+            this.typeLabel6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel6.Location = new System.Drawing.Point(294, 27);
+            this.typeLabel6.Name = "typeLabel6";
+            this.typeLabel6.Size = new System.Drawing.Size(74, 17);
+            this.typeLabel6.TabIndex = 5;
+            this.typeLabel6.Text = "EXP/Hour:";
+            // 
+            // typeLabel5
+            // 
+            this.typeLabel5.AutoSize = true;
+            this.typeLabel5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel5.Location = new System.Drawing.Point(24, 121);
+            this.typeLabel5.Name = "typeLabel5";
+            this.typeLabel5.Size = new System.Drawing.Size(80, 17);
+            this.typeLabel5.TabIndex = 4;
+            this.typeLabel5.Text = "Advance In:";
+            // 
+            // typeLabel4
+            // 
+            this.typeLabel4.AutoSize = true;
+            this.typeLabel4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel4.Location = new System.Drawing.Point(24, 98);
+            this.typeLabel4.Name = "typeLabel4";
+            this.typeLabel4.Size = new System.Drawing.Size(29, 17);
+            this.typeLabel4.TabIndex = 3;
+            this.typeLabel4.Text = "XP:";
+            // 
+            // typeLabel3
+            // 
+            this.typeLabel3.AutoSize = true;
+            this.typeLabel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel3.Location = new System.Drawing.Point(24, 75);
+            this.typeLabel3.Name = "typeLabel3";
+            this.typeLabel3.Size = new System.Drawing.Size(44, 17);
+            this.typeLabel3.TabIndex = 2;
+            this.typeLabel3.Text = "Level:";
+            // 
+            // typeLabel2
+            // 
+            this.typeLabel2.AutoSize = true;
+            this.typeLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel2.Location = new System.Drawing.Point(24, 51);
+            this.typeLabel2.Name = "typeLabel2";
+            this.typeLabel2.Size = new System.Drawing.Size(64, 17);
+            this.typeLabel2.TabIndex = 1;
+            this.typeLabel2.Text = "Runtime:";
+            // 
+            // typeLabel1
+            // 
+            this.typeLabel1.AutoSize = true;
+            this.typeLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeLabel1.Location = new System.Drawing.Point(24, 27);
+            this.typeLabel1.Name = "typeLabel1";
+            this.typeLabel1.Size = new System.Drawing.Size(62, 17);
+            this.typeLabel1.TabIndex = 0;
+            this.typeLabel1.Text = "Account:";
             // 
             // outputBox
             // 
@@ -325,17 +325,6 @@
             this.outputBox.TabIndex = 1;
             this.outputBox.TabStop = false;
             this.outputBox.Text = "Output";
-            // 
-            // aboutLabel
-            // 
-            this.aboutLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.aboutLabel.AutoSize = true;
-            this.aboutLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aboutLabel.Location = new System.Drawing.Point(446, 428);
-            this.aboutLabel.Name = "aboutLabel";
-            this.aboutLabel.Size = new System.Drawing.Size(134, 15);
-            this.aboutLabel.TabIndex = 2;
-            this.aboutLabel.Text = "Created by Weidi Zhang";
             // 
             // outputTabControl
             // 
@@ -376,34 +365,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Pokestop";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // outputBoxAll
-            // 
-            this.outputBoxAll.BackColor = System.Drawing.SystemColors.InfoText;
-            this.outputBoxAll.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.outputBoxAll.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputBoxAll.ForeColor = System.Drawing.Color.Snow;
-            this.outputBoxAll.Location = new System.Drawing.Point(3, 3);
-            this.outputBoxAll.Multiline = true;
-            this.outputBoxAll.Name = "outputBoxAll";
-            this.outputBoxAll.ReadOnly = true;
-            this.outputBoxAll.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.outputBoxAll.Size = new System.Drawing.Size(568, 180);
-            this.outputBoxAll.TabIndex = 0;
-            // 
-            // outputBoxPokestop
-            // 
-            this.outputBoxPokestop.BackColor = System.Drawing.SystemColors.InfoText;
-            this.outputBoxPokestop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.outputBoxPokestop.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputBoxPokestop.ForeColor = System.Drawing.Color.Snow;
-            this.outputBoxPokestop.Location = new System.Drawing.Point(3, 3);
-            this.outputBoxPokestop.Multiline = true;
-            this.outputBoxPokestop.Name = "outputBoxPokestop";
-            this.outputBoxPokestop.ReadOnly = true;
-            this.outputBoxPokestop.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.outputBoxPokestop.Size = new System.Drawing.Size(568, 180);
-            this.outputBoxPokestop.TabIndex = 1;
             // 
             // tabPage3
             // 
@@ -449,62 +410,6 @@
             this.tabPage6.Text = "Info";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // outputBoxSniper
-            // 
-            this.outputBoxSniper.BackColor = System.Drawing.SystemColors.InfoText;
-            this.outputBoxSniper.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.outputBoxSniper.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputBoxSniper.ForeColor = System.Drawing.Color.Snow;
-            this.outputBoxSniper.Location = new System.Drawing.Point(3, 3);
-            this.outputBoxSniper.Multiline = true;
-            this.outputBoxSniper.Name = "outputBoxSniper";
-            this.outputBoxSniper.ReadOnly = true;
-            this.outputBoxSniper.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.outputBoxSniper.Size = new System.Drawing.Size(568, 180);
-            this.outputBoxSniper.TabIndex = 2;
-            // 
-            // outputBoxTransfer
-            // 
-            this.outputBoxTransfer.BackColor = System.Drawing.SystemColors.InfoText;
-            this.outputBoxTransfer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.outputBoxTransfer.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputBoxTransfer.ForeColor = System.Drawing.Color.Snow;
-            this.outputBoxTransfer.Location = new System.Drawing.Point(3, 3);
-            this.outputBoxTransfer.Multiline = true;
-            this.outputBoxTransfer.Name = "outputBoxTransfer";
-            this.outputBoxTransfer.ReadOnly = true;
-            this.outputBoxTransfer.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.outputBoxTransfer.Size = new System.Drawing.Size(568, 180);
-            this.outputBoxTransfer.TabIndex = 2;
-            // 
-            // outputBoxPkmn
-            // 
-            this.outputBoxPkmn.BackColor = System.Drawing.SystemColors.InfoText;
-            this.outputBoxPkmn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.outputBoxPkmn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputBoxPkmn.ForeColor = System.Drawing.Color.Snow;
-            this.outputBoxPkmn.Location = new System.Drawing.Point(3, 3);
-            this.outputBoxPkmn.Multiline = true;
-            this.outputBoxPkmn.Name = "outputBoxPkmn";
-            this.outputBoxPkmn.ReadOnly = true;
-            this.outputBoxPkmn.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.outputBoxPkmn.Size = new System.Drawing.Size(568, 180);
-            this.outputBoxPkmn.TabIndex = 2;
-            // 
-            // outputBoxInfo
-            // 
-            this.outputBoxInfo.BackColor = System.Drawing.SystemColors.InfoText;
-            this.outputBoxInfo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.outputBoxInfo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputBoxInfo.ForeColor = System.Drawing.Color.Snow;
-            this.outputBoxInfo.Location = new System.Drawing.Point(3, 3);
-            this.outputBoxInfo.Multiline = true;
-            this.outputBoxInfo.Name = "outputBoxInfo";
-            this.outputBoxInfo.ReadOnly = true;
-            this.outputBoxInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.outputBoxInfo.Size = new System.Drawing.Size(568, 180);
-            this.outputBoxInfo.TabIndex = 2;
-            // 
             // tabPage7
             // 
             this.tabPage7.Controls.Add(this.outputBoxRecycle);
@@ -516,19 +421,16 @@
             this.tabPage7.Text = "Recycling";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // outputBoxRecycle
+            // aboutLabel
             // 
-            this.outputBoxRecycle.BackColor = System.Drawing.SystemColors.InfoText;
-            this.outputBoxRecycle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.outputBoxRecycle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.outputBoxRecycle.ForeColor = System.Drawing.Color.Snow;
-            this.outputBoxRecycle.Location = new System.Drawing.Point(3, 3);
-            this.outputBoxRecycle.Multiline = true;
-            this.outputBoxRecycle.Name = "outputBoxRecycle";
-            this.outputBoxRecycle.ReadOnly = true;
-            this.outputBoxRecycle.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.outputBoxRecycle.Size = new System.Drawing.Size(568, 180);
-            this.outputBoxRecycle.TabIndex = 2;
+            this.aboutLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.aboutLabel.AutoSize = true;
+            this.aboutLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aboutLabel.Location = new System.Drawing.Point(446, 428);
+            this.aboutLabel.Name = "aboutLabel";
+            this.aboutLabel.Size = new System.Drawing.Size(134, 15);
+            this.aboutLabel.TabIndex = 2;
+            this.aboutLabel.Text = "Created by Weidi Zhang";
             // 
             // linkLabel1
             // 
@@ -541,6 +443,97 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "GitHub";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // outputBoxAll
+            // 
+            this.outputBoxAll.BackColor = System.Drawing.SystemColors.InfoText;
+            this.outputBoxAll.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.outputBoxAll.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputBoxAll.ForeColor = System.Drawing.Color.Snow;
+            this.outputBoxAll.Location = new System.Drawing.Point(3, 3);
+            this.outputBoxAll.Name = "outputBoxAll";
+            this.outputBoxAll.ReadOnly = true;
+            this.outputBoxAll.Size = new System.Drawing.Size(568, 180);
+            this.outputBoxAll.TabIndex = 19;
+            this.outputBoxAll.Text = "";
+            // 
+            // outputBoxPokestop
+            // 
+            this.outputBoxPokestop.BackColor = System.Drawing.SystemColors.InfoText;
+            this.outputBoxPokestop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.outputBoxPokestop.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputBoxPokestop.ForeColor = System.Drawing.Color.Snow;
+            this.outputBoxPokestop.Location = new System.Drawing.Point(3, 3);
+            this.outputBoxPokestop.Name = "outputBoxPokestop";
+            this.outputBoxPokestop.ReadOnly = true;
+            this.outputBoxPokestop.Size = new System.Drawing.Size(568, 180);
+            this.outputBoxPokestop.TabIndex = 20;
+            this.outputBoxPokestop.Text = "";
+            // 
+            // outputBoxSniper
+            // 
+            this.outputBoxSniper.BackColor = System.Drawing.SystemColors.InfoText;
+            this.outputBoxSniper.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.outputBoxSniper.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputBoxSniper.ForeColor = System.Drawing.Color.Snow;
+            this.outputBoxSniper.Location = new System.Drawing.Point(3, 3);
+            this.outputBoxSniper.Name = "outputBoxSniper";
+            this.outputBoxSniper.ReadOnly = true;
+            this.outputBoxSniper.Size = new System.Drawing.Size(568, 180);
+            this.outputBoxSniper.TabIndex = 20;
+            this.outputBoxSniper.Text = "";
+            // 
+            // outputBoxTransfer
+            // 
+            this.outputBoxTransfer.BackColor = System.Drawing.SystemColors.InfoText;
+            this.outputBoxTransfer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.outputBoxTransfer.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputBoxTransfer.ForeColor = System.Drawing.Color.Snow;
+            this.outputBoxTransfer.Location = new System.Drawing.Point(3, 3);
+            this.outputBoxTransfer.Name = "outputBoxTransfer";
+            this.outputBoxTransfer.ReadOnly = true;
+            this.outputBoxTransfer.Size = new System.Drawing.Size(568, 180);
+            this.outputBoxTransfer.TabIndex = 20;
+            this.outputBoxTransfer.Text = "";
+            // 
+            // outputBoxPkmn
+            // 
+            this.outputBoxPkmn.BackColor = System.Drawing.SystemColors.InfoText;
+            this.outputBoxPkmn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.outputBoxPkmn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputBoxPkmn.ForeColor = System.Drawing.Color.Snow;
+            this.outputBoxPkmn.Location = new System.Drawing.Point(3, 3);
+            this.outputBoxPkmn.Name = "outputBoxPkmn";
+            this.outputBoxPkmn.ReadOnly = true;
+            this.outputBoxPkmn.Size = new System.Drawing.Size(568, 180);
+            this.outputBoxPkmn.TabIndex = 20;
+            this.outputBoxPkmn.Text = "";
+            // 
+            // outputBoxInfo
+            // 
+            this.outputBoxInfo.BackColor = System.Drawing.SystemColors.InfoText;
+            this.outputBoxInfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.outputBoxInfo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputBoxInfo.ForeColor = System.Drawing.Color.Snow;
+            this.outputBoxInfo.Location = new System.Drawing.Point(3, 3);
+            this.outputBoxInfo.Name = "outputBoxInfo";
+            this.outputBoxInfo.ReadOnly = true;
+            this.outputBoxInfo.Size = new System.Drawing.Size(568, 180);
+            this.outputBoxInfo.TabIndex = 20;
+            this.outputBoxInfo.Text = "";
+            // 
+            // outputBoxRecycle
+            // 
+            this.outputBoxRecycle.BackColor = System.Drawing.SystemColors.InfoText;
+            this.outputBoxRecycle.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.outputBoxRecycle.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputBoxRecycle.ForeColor = System.Drawing.Color.Snow;
+            this.outputBoxRecycle.Location = new System.Drawing.Point(3, 3);
+            this.outputBoxRecycle.Name = "outputBoxRecycle";
+            this.outputBoxRecycle.ReadOnly = true;
+            this.outputBoxRecycle.Size = new System.Drawing.Size(568, 180);
+            this.outputBoxRecycle.TabIndex = 20;
+            this.outputBoxRecycle.Text = "";
             // 
             // Form1
             // 
@@ -562,19 +555,12 @@
             this.outputBox.ResumeLayout(false);
             this.outputTabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
             this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
             this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
             this.tabPage6.ResumeLayout(false);
-            this.tabPage6.PerformLayout();
             this.tabPage7.ResumeLayout(false);
-            this.tabPage7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -608,19 +594,19 @@
         private System.Windows.Forms.TabControl outputTabControl;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TextBox outputBoxAll;
-        private System.Windows.Forms.TextBox outputBoxPokestop;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TextBox outputBoxSniper;
-        private System.Windows.Forms.TextBox outputBoxTransfer;
-        private System.Windows.Forms.TextBox outputBoxPkmn;
-        private System.Windows.Forms.TextBox outputBoxInfo;
         private System.Windows.Forms.TabPage tabPage7;
-        private System.Windows.Forms.TextBox outputBoxRecycle;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.RichTextBox outputBoxAll;
+        private System.Windows.Forms.RichTextBox outputBoxPokestop;
+        private System.Windows.Forms.RichTextBox outputBoxSniper;
+        private System.Windows.Forms.RichTextBox outputBoxTransfer;
+        private System.Windows.Forms.RichTextBox outputBoxPkmn;
+        private System.Windows.Forms.RichTextBox outputBoxInfo;
+        private System.Windows.Forms.RichTextBox outputBoxRecycle;
     }
 }
 

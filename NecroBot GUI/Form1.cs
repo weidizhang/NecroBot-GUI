@@ -63,7 +63,7 @@ namespace NecroBot_GUI
             }
             catch (Exception e)
             {
-                logToBox(outputBoxAll, Environment.NewLine + e.ToString());
+                logToBox(outputBoxAll, Environment.NewLine + e.ToString(), Color.Red);
             }
         }
 
@@ -93,6 +93,8 @@ namespace NecroBot_GUI
         {
             if (line != null)
             {
+                Color lineColor = Color.Snow;
+
                 if (line.Contains("New update detected, would you like to update"))
                 {
                     MessageBox.Show("New update detected. Please open the original NecroBot.exe file and update before reopening the GUI.", "Notice", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -105,23 +107,28 @@ namespace NecroBot_GUI
                 {
                     if (line.Contains("(POKESTOP)"))
                     {
-                        logToBox(outputBoxPokestop, line);
+                        lineColor = Color.Aqua;
+                        logToBox(outputBoxPokestop, line, lineColor);
                     }
                     else if (line.Contains("(SNIPER)"))
                     {
-                        logToBox(outputBoxSniper, line);
+                        lineColor = Color.Yellow;
+                        logToBox(outputBoxSniper, line, lineColor);
                     }
                     else if (line.Contains("(TRANSFERED)"))
                     {
-                        logToBox(outputBoxTransfer, line);
+                        lineColor = Color.Green;
+                        logToBox(outputBoxTransfer, line, lineColor);
                     }
                     else if (line.Contains("(PKMN)"))
                     {
-                        logToBox(outputBoxPkmn, line);
+                        lineColor = Color.Lime;
+                        logToBox(outputBoxPkmn, line, lineColor);
                     }
                     else if (line.Contains("(INFO)"))
                     {
-                        logToBox(outputBoxInfo, line);
+                        lineColor = Color.DarkCyan;
+                        logToBox(outputBoxInfo, line, lineColor);
 
                         if (!hidBotWindow)
                         {
@@ -131,20 +138,38 @@ namespace NecroBot_GUI
                     }
                     else if (line.Contains("(RECYCLING)"))
                     {
-                        logToBox(outputBoxRecycle, line);
+                        lineColor = Color.DarkViolet;
+                        logToBox(outputBoxRecycle, line, lineColor);
+                    }
+                    else if (line.Contains("(ATTENTION)"))
+                    {
+                        lineColor = Color.Red;
                     }
                 }
                 
-                logToBox(outputBoxAll, line);
+                logToBox(outputBoxAll, line, lineColor);
             }
         }
 
-        private void logToBox(TextBox textBox, String line)
+        private void logToBox(RichTextBox richBox, String line, Color lineColor)
         {
-            textBox.Text += line + Environment.NewLine;
+            if (richBox.InvokeRequired)
+            {
+                BeginInvoke(new MethodInvoker(
+                    () => logToBox(richBox, line, lineColor)
+                ));
 
-            textBox.SelectionStart = textBox.TextLength;
-            textBox.ScrollToCaret();
+                return;
+            }
+
+            richBox.SelectionStart = richBox.TextLength;
+            richBox.SelectionLength = 0;
+            richBox.SelectionColor = lineColor;
+            richBox.AppendText(line + Environment.NewLine);
+            richBox.SelectionColor = richBox.ForeColor;
+
+            richBox.SelectionStart = richBox.TextLength;
+            richBox.ScrollToCaret();
         }
 
         private String getSectionInfo(String section, String sectionTitle, String endAt = null) {
